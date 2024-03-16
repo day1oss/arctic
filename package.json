@@ -1,21 +1,17 @@
 {
 	"name": "@day1co/arctic",
-	"version": "1.3.0",
+	"version": "1.3.1",
 	"description": "OAuth 2.0 clients for popular providers",
-	"type": "module",
-	"main": "dist/cjs/index.js",
-	"types": "dist/types/index.d.ts",
-	"module": "dist/esm/index.js",
+	"main": "./index.js",
+	"types": "./index.d.ts",
 	"scripts": {
 		"build:esm": "rm -rf dist/* && tsc -b ./tsconfig.cjs.json ./tsconfig.esm.json ./tsconfig.dts.json",
 		"build": "rm -rf dist/* && tsc -b ./tsconfig.cjs.json",
+		"standby": "cp package.json dist/cjs && cp README.md dist/cjs && cp LICENSE dist/cjs && cd dist/cjs",
 		"format": "prettier -w .",
 		"lint": "eslint src",
 		"test": "vitest run --sequence.concurrent"
 	},
-	"files": [
-		"/dist/"
-	],
 	"author": "pilcrowOnPaper",
 	"license": "MIT",
 	"repository": {
