@@ -77,7 +77,7 @@ export type { WorkOSTokens } from "./providers/workos.js";
 export type { YahooTokens } from "./providers/yahoo.js";
 export type { ZoomTokens } from "./providers/zoom.js";
 
-export { generateCodeVerifier, generateState, OAuth2RequestError } from "oslo/oauth2";
+export { generateCodeVerifier, generateState, OAuth2RequestError } from "@day1co/oslo/oauth2";
 
 export interface OAuth2Provider {
 	createAuthorizationURL(state: string): Promise<URL>;

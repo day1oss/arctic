@@ -1,5 +1,5 @@
-import { TimeSpan, createDate } from "oslo";
-import { OAuth2Client } from "oslo/oauth2";
+import { TimeSpan, createDate } from "@day1co/oslo";
+import { OAuth2Client } from "@day1co/oslo/oauth2";
 
 import type { OAuth2ProviderWithPKCE } from "../index.js";
 

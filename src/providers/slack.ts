@@ -1,4 +1,4 @@
-import { OAuth2Client } from "oslo/oauth2";
+import { OAuth2Client } from "@day1co/oslo/oauth2";
 
 import type { OAuth2Provider } from "../index.js";
 

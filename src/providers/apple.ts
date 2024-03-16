@@ -1,7 +1,7 @@
-import { TimeSpan, createDate } from "oslo";
-import { decodeBase64 } from "oslo/encoding";
-import { createJWT } from "oslo/jwt";
-import { OAuth2Client } from "oslo/oauth2";
+import { TimeSpan, createDate } from "@day1co/oslo";
+import { decodeBase64 } from "@day1co/oslo/encoding";
+import { createJWT } from "@day1co/oslo/jwt";
+import { OAuth2Client } from "@day1co/oslo/oauth2";
 
 import type { OAuth2Provider } from "../index.js";
 

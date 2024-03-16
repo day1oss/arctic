@@ -1,7 +1,7 @@
-import { OAuth2Client } from "oslo/oauth2";
+import { OAuth2Client } from "@day1co/oslo/oauth2";
 
 import type { OAuth2Provider } from "../index.js";
-import { TimeSpan, createDate } from "oslo";
+import { TimeSpan, createDate } from "@day1co/oslo";
 
 const authorizeEndpoint = "https://www.tumblr.com/oauth2/authorize";
 const tokenEndpoint = "https://api.tumblr.com/v2/oauth2/token";
